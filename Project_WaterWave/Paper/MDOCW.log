@@ -1,0 +1,195 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdftex 2021.9.19)  1 JUN 2022 12:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MDOCW.tex
+(./MDOCW.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [conference]{IEEEtran}
+? 
+! Undefined control sequence.
+l.2 \IEEEoverridecommandlockouts
+                                
+? 
+! Undefined control sequence.
+l.4 \usepackage
+               {cite}
+? 
+! Undefined control sequence.
+l.5 \usepackage
+               {amsmath,amssymb,amsfonts}
+? 
+! Undefined control sequence.
+l.6 \usepackage
+               {algorithmic}
+? 
+! Undefined control sequence.
+l.7 \usepackage
+               {graphicx}
+? 
+! Undefined control sequence.
+l.8 \usepackage
+               {textcomp}
+? 
+! Undefined control sequence.
+l.9 \usepackage
+               {xcolor}
+? 
+! Undefined control sequence.
+l.12 \begin
+           {document}
+? 
+! Undefined control sequence.
+l.14 \title
+           {Mathematical Depiction on Optical Characteristic of WaterWave
+? 
+! Undefined control sequence.
+l.17 \author
+            {\IEEEauthorblockN{1\textsuperscript{st} Yi Jiang}
+? 
+! Undefined control sequence.
+l.17 \author{\IEEEauthorblockN
+                              {1\textsuperscript{st} Yi Jiang}
+? 
+! Undefined control sequence.
+l.17 \author{\IEEEauthorblockN{1\textsuperscript
+                                                {st} Yi Jiang}
+? 
+! Undefined control sequence.
+l.18 \IEEEauthorblockA
+                      {\textit{dept. EIC} \\
+? 
+! Undefined control sequence.
+l.18 \IEEEauthorblockA{\textit
+                              {dept. EIC} \\
+? 
+! Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.21 yjiang@hust.edu.cn}
+                        
+? 
+Runaway argument?
+ \textit {HUST}\\ Wuhan, China \\ yjiang@hust.edu.cn
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.21 yjiang@hust.edu.cn}
+                        
+? 
+! Undefined control sequence.
+l.22 \and
+         
+? 
+! Undefined control sequence.
+l.23 \IEEEauthorblockN
+                      {2\textsuperscript{nd} Zhijie Hu}
+? 
+! Undefined control sequence.
+l.23 \IEEEauthorblockN{2\textsuperscript
+                                        {nd} Zhijie Hu}
+? 
+! Undefined control sequence.
+l.24 \IEEEauthorblockA
+                      {\textit{dept. EIC} \\
+? 
+! Undefined control sequence.
+l.24 \IEEEauthorblockA{\textit
+                              {dept. EIC} \\
+? 
+! Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.27 u202013833@hust.edu.cn}
+                            
+? 
+Runaway argument?
+ \textit {HUST}\\ Wuhan, China \\ u202013833@hust.edu.cn
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.27 u202013833@hust.edu.cn}
+                            
+? 
+! Undefined control sequence.
+l.28 \and
+         
+? 
+! Undefined control sequence.
+l.29 \IEEEauthorblockN
+                      {3\textsuperscript{rd} Yin Ge}
+? 
+! Undefined control sequence.
+l.29 \IEEEauthorblockN{3\textsuperscript
+                                        {rd} Yin Ge}
+? 
+! Undefined control sequence.
+l.30 \IEEEauthorblockA
+                      {\textit{dept. EIC} \\
+? 
+! Undefined control sequence.
+l.30 \IEEEauthorblockA{\textit
+                              {dept. EIC} \\
+? 
+! Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.33 u201915037@hust.edu.cn}
+                            
+? 
+Runaway argument?
+ \textit {HUST}\\ Wuhan, China \\ u201915037@hust.edu.cn
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.33 u201915037@hust.edu.cn}
+                            
+? 
+! Undefined control sequence.
+l.36 \maketitle
+               
+? 
+! Undefined control sequence.
+l.38 \begin
+           {abstract}
+? 
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )</us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on MDOCW.pdf (1 page, 21059 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -41,8 +41,51 @@ Omnipresent water has been well studied for its physical, chemistry and biologic
 
 
 \section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
+Without much study of the shape of water wave, we first intuitively assume water wave is a one-dimension cosine wave, and we study the light path where the light emitted from the source reflect only once at the interface of water and air, by study this naive model. Over the study of this naive model, we gain a basic understanding of the how water wave became visible in our eyes, and also’s it spacial and time-domain periodicity.\\
+
+After study the single light, pace, we consider apply the object-image model to water wave scenario. At any given point, we can calculate the normal vector and curvature, and model the small area of water-air interface as a spherical mirror, together, we can get the full image of the object over water. By this way, we can get the image at any give time, as water wave is periodic, we need only to calculate the image over one time period and we can get the full information of water wave geometrically.\\
+
+Over two models, we can re-visualize the effect of water wave provide the light source and the shape of water. However, problems remain unsolved:\\
+\begin{itemize}
+\item Times of Reflection: Each time a light reflect at the point, it generate refraction beside the reflection, and where the reflection light goes is hard to say. Besides, whether the light will reflect once or times not upper bounded. Light from a singular source is easier to trace, but when it comes to the whole subject, the computation goes to infinity.
+\item Polarity and Intensity: Over the analysis before, we calculate the range of the image to be see geometrically regardless of the intensity, polarity.
+\item Dispersion: the dielectric coefficient of water may vary over wavelength of light, this may cause trouble when calculating light path over compound light containing wide range of wavelength. Besides, the light intensity distribution over polarization direction varies. Hopefully, considering only the degree of reflection light, it is  equal over wavelength. So they could be considered geometrically equivalent under reflection regardless of  polarity and intensity.
+\item Paralleled Light: we have being consider the paralleled light source over the model, which models well for Celestial objects such as sun and moon. However, it’s too special, and we need to apply it to more generalized scenerios. 
+\end{itemize}
+
+\section{Naive Model}
+
+\subsection{Considering a Light Path From Light Source to Human Eye}
+For simplicity, we naively assume there exist a one dimensional cosine water wave \eqref{eq1}:
+\begin{equation}
+h = A \cos(\frac{2\pi}{\lambda}x- \omega t)\label{eq1}
+\end{equation}
+in which $h$ is the height of the wave, $x$ is a measure of distance, $t$ measures time, $A$ present the Amplitude of the wave, $\lambda$ is the wavelength, and $\omega$ is the angular frequency. \\
+
+Consider the light path from the light source to Human Eye as shown in "Fig.~\ref{fig01}'', denote the degree from eye to to the ground as $\alpha$, the degree from light source to the ground as $\beta$, then the tangent line has a degree to the ground $\gamma$ which satisfies\eqref{eq2}:
+\begin{equation}
+\gamma = \frac{1}{2} (\alpha-\beta)\label{eq2}
+\end{equation}
+
+Remember that $\beta$ is $x$ dependent, and $\alpha$ can be a constant if the light source is paralleled. As the water way is time-domain periodic, over one period $T=\frac{2\pi}{\omega}$, the light can enter you eye again from the same place, resulting a periodic light pulse in your eye at degree $\beta$, thus the image you see over the water has a same angular frequency $\omega_i$ equal to $\omega$ the angular frequency of water wave. \\
+
+\begin{figure}[htbp]
+\includegraphics[width=\linewidth]{fig/reflect_onwave_single.pdf}
+\caption{Example of a figure caption.}
+\label{fig01}
+\end{figure}
+
+Lets now consider the boundary of degree you can see the image of light source which reflect on the interface of water-air only once. The limit of the gradient of a water wave follow the fluctuation equation \eqref{eq1} is:
+\begin{equation}
+\delta = \arctan \left( -\frac{2\pi}{\lambda} A \right)
+\end{equation}
+which must satisify \eqref{eq4}:
+\begin{equation}
+\|\delta\| \geq \|\gamma\|\label{eq4}
+\end{equation}
+remember that $\beta$ is $x$ dependent, so does $\gamma$, therefore, we can calculate the range of degree you can see the one-time reflection image. \\
+
+However the model doesn't suit that well
 
 \section{Ease of Use}
 
